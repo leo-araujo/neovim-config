@@ -8,7 +8,8 @@ return {
       ensure_installed = { "lua", "vim", "vimdoc", "query", "elixir", "ruby", "javascript", "html" },
       sync_install = false,
       highlight = { enable = true },
-      indent = { enable = true },  
+      indent = { enable = true },
+      endwise = { enable = true}
     })
   end
 }
